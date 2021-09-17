@@ -1,12 +1,18 @@
-name: "cars"
+name: "Final Year Project"
 output_dir: "docs"
 navbar:
-  title: "Cars"
+  title: "Final Year Project"
   left:
   - text: "Home"
     href: index.html
-  - text: "Speed and Distance"
-    href: speed-and-distance.html
+  - text: "Final Year Project Outline"
+    href: fyp_outline.html
+  - text: "Advanced Statistical Methods"
+    href: adsm.html
+  - text: "Survival Analysis"
+    href: survival.html
+  - text: "Epidemilogy"
+    href: epidemilogy.html
 output:
   html_document:
 theme: cosmo
