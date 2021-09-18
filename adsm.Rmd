@@ -10,4 +10,4 @@ output:
 
 #### Some Notes
 
-Some Basic Plotting [Note 1]('https://hemu0626.github.io/Final-Year-Project/tt1.html')
+Some Basic Plotting [Note 1](tt1.html)
