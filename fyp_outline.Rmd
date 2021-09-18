@@ -1,9 +1,21 @@
 ---
 title: "Final Year Project Outline"
-author: "Mu He"
-date: "9/17/2021"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 4
 ---
 
-## Final Year Poject
+### Final Year Poject
 
 This is page of MTH301 Final Year Project.
+
+
+#### Softwares
+
++ R [download]('https://cran.r-project.org/')
++ Rstudio [download]('https://www.rstudio.com/products/rstudio/download/')
++ Latex (You can use [Overleaf]('https://www.overleaf.com') )
+
+#### Template
