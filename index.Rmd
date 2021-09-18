@@ -1,8 +1,11 @@
 ---
-title: "Welcome to MTH 301"
+title: "MTH 301 Homepage"
 author: "Mu He"
 date: "9/17/2021"
 ---
 
 
-## Welcome to Mth301 Final Year Project
+## Mth301 Final Year Project
+
+
+Here is the tentative outline and schedule 
