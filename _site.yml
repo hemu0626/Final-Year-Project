@@ -11,9 +11,9 @@ navbar:
     href: adsm.html
   - text: "Survival Analysis"
     href: survival.html
-  - text: "Epidemilogy"
-    href: epidemilogy.html
+  - text: "Epidemiology"
+    href: epidemiology.html
 output:
   html_document:
-theme: cosmo
+    theme: cosmo
   
