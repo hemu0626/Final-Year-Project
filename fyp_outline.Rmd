@@ -2,14 +2,8 @@
 title: "Final Year Project Outline"
 author: "Mu He"
 date: "9/17/2021"
-output: html_document
-knit: (function(input_file, encoding) {
-  out_dir <- 'docs';
-  rmarkdown::render(input_file,
- encoding=encoding,
- output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
 ---
 
 ## Final Year Poject
 
-Testing
+This is page of MTH301 Final Year Project.
