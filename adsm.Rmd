@@ -10,5 +10,6 @@ output:
 
 #### Some Notes
 
-Some Basic Plotting [Note](tt1.html)
-Random forest [Note](randomforest.html)
++ Some Basic Plotting [Note](tt1.html)
+
++ Random forest [Note](randomforest.html)
