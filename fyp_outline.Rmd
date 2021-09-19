@@ -33,3 +33,5 @@ Students are encouraged to learn some other topics and notes, some useful/intere
 * How to etablish a website like this using Rmarkdown 
   + [Link 1 provided by github](https://resources.github.com/whitepapers/github-and-rstudio/) This is kind of non-trivial and involve some unnecessary steps
   * [Link 2 by Dr.  Emily zabor](https://www.emilyzabor.com/tutorials/index.html)
+  
+* [Kaggle](https://www.kaggle.com)
