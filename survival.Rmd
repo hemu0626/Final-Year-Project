@@ -1,5 +1,27 @@
 ---
 title: "Survival Analysis"
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 4
 ---
+
+#### Outline
+
+Survival data, where the primary outcome is time to a specific event, arise in many areas of biomedical research, including clinical trials and epidemiological studies. Many survival methods are extensions of techniques used in linear regression and categorical data, while other aspects of this field are unique to survival data.
+
+In this project, students are expected to learn some survival analysis topics: Cox Model, AFT Model and Frailty Model, etc. Students are expected to demonstrate their understand of the model and interpret the results of application.
+
+#### Notes
+
+  + To be updated
+  
+#### Past Students Work
+
+  * 2020 - 2021
+    
+    + Yue Ju [Thesis](1718235_Yue Ju_2021.pdf)
+    
+#### Useful Links
 
