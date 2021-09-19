@@ -14,8 +14,8 @@ This is page of MTH301 Final Year Project.
 
 #### Softwares
 
-+ R [download]('https://cran.r-project.org/')
-+ Rstudio [download]('https://www.rstudio.com/products/rstudio/download/')
-+ Latex (You can use [Overleaf]('https://www.overleaf.com') )
++ R [download](https://cran.r-project.org/)
++ Rstudio [download](https://www.rstudio.com/products/rstudio/download/)
++ Latex (You can use [Overleaf](https://www.overleaf.com))
 
 #### Template
