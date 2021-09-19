@@ -24,6 +24,6 @@ Logistic regression, classification and regression trees, neural networks, boost
 #### Past Students
 
   + 2020 - 2021
-   * Liangliang Zhu [Thesis]
-   * Rui Liu 
-   * Yeyu Wang
+   * Liangliang Zhu [Thesis](1718999_Liangliang Zhu_2021.pdf)
+   * Rui Liu [Thesis]()
+   * Yeyu Wang [Thesis]()
