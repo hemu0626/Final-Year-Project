@@ -10,4 +10,5 @@ output:
 
 #### Some Notes
 
-Some Basic Plotting [Note 1](tt1.html)
+Some Basic Plotting [Note](tt1.html)
+Random forest [Note](randomforest.html)
