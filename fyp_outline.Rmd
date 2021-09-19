@@ -9,7 +9,7 @@ output:
 
 ### Final Year Poject
 
-This is page of MTH301 Final Year Project.
+This is page provides some useful links, students can download and play around with it. This website is still under constructions, I wish I can come with more topics and notes (friendly to undergraduate students) together with my final year projects candidate. 
 
 
 #### Softwares
@@ -18,4 +18,18 @@ This is page of MTH301 Final Year Project.
 + Rstudio [download](https://www.rstudio.com/products/rstudio/download/)
 + Latex (You can use [Overleaf](https://www.overleaf.com))
 
-#### Template
+#### Template 
+
++ Students are required to use Latex to format the thesis, a template will be provided
+
+#### Other Resources
+
+Students are encouraged to learn some other topics and notes, some useful/interesting link can be found below:
+
+* Rmarkdown 
+  + [Link for introduction](https://rmarkdown.rstudio.com/)
+  + [Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+  
+* How to etablish a website like this using Rmarkdown 
+  + [Link 1 provided by github](https://resources.github.com/whitepapers/github-and-rstudio/) This is kind of non-trivial and involve some unnecessary steps
+  * [Link 2 by Dr.  Emily zabor](https://www.emilyzabor.com/tutorials/index.html)

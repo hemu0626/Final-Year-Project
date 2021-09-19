@@ -9,10 +9,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Mu He" />
 
 
-<title>Welcome to MTH 301</title>
+<title>MTH 301 Homepage</title>
 
 <script src="site_libs/header-attrs-2.8/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
@@ -30,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -219,6 +221,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -226,6 +291,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -269,19 +344,51 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Welcome to MTH 301</h1>
-<h4 class="author">Mu He</h4>
-<h4 class="date">9/17/2021</h4>
+<h1 class="title toc-ignore">MTH 301 Homepage</h1>
 
 </div>
 
 
-<div id="welcome-to-mth301-final-year-project" class="section level2">
-<h2>Welcome to Mth301 Final Year Project</h2>
+<div id="mth301-final-year-project" class="section level3">
+<h3>Mth301 Final Year Project</h3>
+<p>Here is the tentative outline on topics provided by Dr. Mu He. You may also refer to some Dr. Mu He’s <a href="https://hemu0626.github.io/research.html">publication</a> and come with your own personalize topics. (more than welcome)</p>
+<div id="advanced-statistical-methods" class="section level4">
+<h4>Advanced Statistical Methods</h4>
+<p>Big Data is a heated topic in a variety of fields such as biology and finance. The challenge of understanding these data has led to the development of new statistical tools and developed new areas such as machine learning and bioinformatics. Many of these tools are developed based on traditional statistical thinking, but are often expressed with different terminology.</p>
+<p>In this project, students are expected to choose one or several topics and apply the methods to real datasets: Logistic regression, classification and regression trees, neural networks, boosting, bagging, unsupervised learning, signal processing, random forests and data visualization, etc. Students are expected to demonstrate their understanding of the tools, apply the tools using software and interpret software’s the results.</p>
+</div>
+<div id="survival-anaylsis" class="section level4">
+<h4>Survival Anaylsis</h4>
+<p>Survival data, where the primary outcome is time to a specific event, arise in many areas of biomedical research, including clinical trials and epidemiological studies. Many survival methods are extensions of techniques used in linear regression and categorical data, while other aspects of this field are unique to survival data.</p>
+<p>In this project, students are expected to learn some survival analysis topics: Cox Model, AFT Model and Frailty Model, etc. Students are expected to demonstrate their understand of the model and interpret the results of application.</p>
+</div>
+<div id="epidemiology-viral-dynamic-modelling" class="section level4">
+<h4>Epidemiology: Viral Dynamic Modelling</h4>
+<p>Coronavirus disease 2019 (COVID-19), an infectious disease caused by the infection of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), is spreading and causing the global coronavirus pandemic. The viral dynamics of SARS-CoV-2 infection have not been quantitatively investigated intensely.</p>
+<p>In this project, students are expected to understand the viral dynamic modelling through ODE.</p>
+</div>
+<div id="data-visualization-data-simplification-and-dimension-reduction-methods" class="section level4">
+<h4>Data Visualization, Data Simplification and Dimension Reduction Methods</h4>
+<p>It is difficult to plot and analysis dataset which is in high-dimension. The more variables a dataset has, the more likely it is to find that some variables are highly correlated with others. When a variable can be expressed by other variables, then retaining that variable will increase the complexity of datasets, but not increase the information much. This is the main reason for doing data simplification.</p>
+<p>In this project, students are expected to understand some dimension reduction methods, such as Eigen-decomposition, SVD, Principal Component Analysis and Factor Analysis.</p>
+<p>Students are expected to demonstrate their understand of the methods and interpret the results of application on real data.</p>
+</div>
+<div id="a-review-on-record-based-transmuted-family-of-distributions" class="section level4">
+<h4>A Review on Record-Based Transmuted Family of Distributions</h4>
+<p>Recently, much attention in distribution theory has focused on the family of transmuted distributions, such as Shaw and Buckley’s transmuted distributions is derived through a quadratic rank transmutation map. Its stochastic construction through the use of the order statistics facilitated a generalization of the original family of Shaw and Buckley’s transmuted distributions.</p>
+<p>In this project, continuing on with a similar idea, students are expected to put forward a new family of transmuted distributions based on the theory of records, and then discuss its properties and some cases of special interest.</p>
+</div>
+<div id="estimated-shortfall-and-its-backtesting" class="section level4">
+<h4>Estimated Shortfall and its Backtesting</h4>
+<p>Expected Shortfall (ES) is a measurement for estimating the market risk or credit risk of a portfolio, also known as conditional Value-at-Risk. There are several methods to backtest ES in the literature.</p>
+<p>In this project, students are expected to understand the backtesting methods for ES, such as the conditional test, unconditional test and quantile test. Students are expected to use statistical software, such as Matlab, R etc.</p>
+</div>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -314,6 +421,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3,h4",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

@@ -8,8 +8,22 @@ output:
 ---
 
 
-#### Some Notes
+#### Outline
 
-+ Some Basic Plotting [Note](tt1.html)
+Big Data is a heated topic in a variety of fields such as biology and finance. The challenge of understanding these data has led to the development of new statistical tools and developed new areas such as machine learning and bioinformatics. Many of these tools are developed based on traditional statistical thinking, but are often expressed with different terminology.
 
-+ Random forest [Note](randomforest.html)
+In this project, students are expected to choose one or several topics and apply the methods to real datasets:
+Logistic regression, classification and regression trees, neural networks, boosting, bagging, unsupervised learning, signal processing, random forests and data visualization, etc. Students are expected to demonstrate their understanding of the tools, apply the tools using software and interpret software’s the results.
+
+#### Notes
+
+  + Some Basic Plotting [Note](tt1.html)
+  
+  + Random forest [Note](randomforest.html)
+  
+#### Past Students
+
+  + 2020 - 2021
+   * Liangliang Zhu [Thesis]
+   * Rui Liu 
+   * Yeyu Wang
