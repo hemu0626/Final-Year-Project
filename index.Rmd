@@ -11,7 +11,7 @@ output:
 ### Mth301 Final Year Project
 
 
-Here is the tentative outline on topics provided by Dr. Mu He. You may also refer to some Dr. Mu He's [publication](https://hemu0626.github.io/research.html) and come with your own personalize topics. (more than welcome)
+Here is the tentative outline on topics provided by [Mu He](https://hemu0626.github.io). You may also refer to [publication](https://hemu0626.github.io/research.html) and come with your own personalize topics. (more than welcome)
 
 
 #### Advanced Statistical Methods
