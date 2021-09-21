@@ -30,3 +30,8 @@ Logistic regression, classification and regression trees, neural networks, boost
     + Rui Liu [Thesis](1718304_Rui Liu_2021.pdf)
     
     + Yeyu Wang [Thesis](1715617_Yeyu Wang_2021.pdf)
+    
+    
+#### Interesting Reading
+
+  * How the global health security index and environment factor influence the spread of COVID-19: A country level analysis [Link](https://www.sciencedirect.com/science/article/pii/S2352771421000252)
