@@ -24,11 +24,10 @@ In this project, students are expected to understand the viral dynamic modelling
   * Brauer, F., Driessche, P. D., & Wu, J. (2008). Lecture notes in mathematical epidemiology. Berlin, Germany. Springer, 75(1), 3-22.
   * Martcheva, M. (2015). *An introduction to mathematical epidemiology* (Vol. 61). New York: Springer.
   * Brauer, F. (2017). Mathematical epidemiology: Past, present, and future. *Infectious Disease Modelling*, 2(2), 113-127.
-  
+  * [Sample Website](http://sbfnk.github.io/mfiidd/introduction.html)
   
 #### SIR Model
 
-```{r}
-knitr::include_app("https://hemu0626.shinyapps.io/SIRmodel/",
-  height = "600px")
+```{r echo=FALSE}
+knitr::include_app("https://hemu0626.shinyapps.io/SIRmodel/", height = "600px")
 ```
