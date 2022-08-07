@@ -13,7 +13,7 @@
 
 <title>MTH 301 Homepage</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -63,6 +63,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -83,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -308,7 +312,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -379,6 +383,18 @@ div.tocify {
 <h4>6.Estimated Shortfall and its Backtesting</h4>
 <p>Expected Shortfall (ES) is a measurement for estimating the market risk or credit risk of a portfolio, also known as conditional Value-at-Risk. There are several methods to backtest ES in the literature.</p>
 <p>In this project, students are expected to understand the backtesting methods for ES, such as the conditional test, unconditional test and quantile test. Students are expected to use statistical software, such as Matlab, R etc.</p>
+</div>
+<div id="cognitive-diagnosis-models-and-dina-model" class="section level4">
+<h4>7. Cognitive Diagnosis Models and Dina Model</h4>
+<p>Cognitive diagnosis models (CDMs) are special types of restricted latent class model that have received a great deal of attention in the past several years. CDMs try to identify if an examinee has mastered specific skills required to solve an item. CDMs try to identify the strength and weakness in a sets of fine-grained skills(or attributtes) differs from the objective of traditional measurement models.</p>
+<p>In CDMs, a student is classified into dichotomous latent skill classes according to the corresponding response of a test and a given <em>Q matrix</em> which skills are required to master each item</p>
+<p><strong>Q-matrix</strong></p>
+<p><span class="math display">\[Q=\begin{bmatrix} q_{11} &amp; \cdots &amp; q_{1k} &amp;\cdots &amp;q_{1K}\\ \vdots &amp; &amp; \vdots &amp; &amp;\vdots\\
+q_{j1}&amp; \cdots &amp; q_{jk} &amp; \cdots &amp; q_{jK}\\
+\vdots &amp; &amp; \vdots &amp; &amp;\vdots\\
+q_{J1} &amp; \cdots &amp; q_{Jk} &amp; \cdots &amp; q_{JK}
+\end{bmatrix}\]</span></p>
+<p>where <span class="math inline">\(J\)</span> means the number of items and <span class="math inline">\(K\)</span> means the number of attributes.</p>
 </div>
 </div>
 

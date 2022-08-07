@@ -59,4 +59,21 @@ Expected Shortfall (ES) is a measurement for estimating the market risk or credi
 In this project, students are expected to understand the backtesting methods for ES, such as the conditional test, unconditional test and quantile test.
 Students are expected to use statistical software, such as Matlab, R etc.
 
+#### 7. Cognitive Diagnosis Models and Dina Model
+
+Cognitive diagnosis models (CDMs) are special types of restricted latent class model that have received a great deal of attention in the past several years. CDMs try to identify if an examinee has mastered specific skills required to solve an item. CDMs try to identify the strength and weakness in a sets of fine-grained skills(or attributtes) differs from the objective of traditional measurement models.
+
+In CDMs, a student is classified into dichotomous latent skill classes according to the corresponding response of a test and a given *Q matrix* which skills are required to master each item
+
+**Q-matrix**
+
+$$Q=\begin{bmatrix} q_{11} & \cdots & q_{1k} &\cdots &q_{1K}\\ \vdots & & \vdots & &\vdots\\
+q_{j1}& \cdots & q_{jk} & \cdots & q_{jK}\\
+\vdots & & \vdots & &\vdots\\
+q_{J1} & \cdots & q_{Jk} & \cdots & q_{JK}
+\end{bmatrix}$$
+
+where $J$ means the number of items and $K$ means the number of attributes.
+
+
 
