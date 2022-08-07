@@ -17,6 +17,14 @@ In this project, students are expected to understand the viral dynamic modelling
 
   * To be updated
   
+#### Past Stuents
+
+  * 2021 - 2022
+  
+    + Xueke Zhang [Modelling of Covid-19 Transmission Dynamic in India](1824292_xueke zhang_2022.pdf)
+    
+    + Yipei Guo [Analyse the Spread of Covid-19 in United
+States With an Epidemic Dynamic Model](1823319_Yipei Guo_2022.pdf)
 
 #### Reference
 
