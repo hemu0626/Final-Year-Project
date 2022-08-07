@@ -13,8 +13,8 @@
 
 <title>Survival Analysis</title>
 
-<script src="site_libs/header-attrs-2.8/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -351,15 +351,14 @@ div.tocify {
 <p>Survival data, where the primary outcome is time to a specific event, arise in many areas of biomedical research, including clinical trials and epidemiological studies. Many survival methods are extensions of techniques used in linear regression and categorical data, while other aspects of this field are unique to survival data.</p>
 <p>In this project, students are expected to learn some survival analysis topics: Cox Model, AFT Model and Frailty Model, etc. Students are expected to demonstrate their understand of the model and interpret the results of application.</p>
 </div>
-<div id="notes" class="section level4">
-<h4>Notes</h4>
+<div id="past-students" class="section level4">
+<h4>Past Students</h4>
 <ul>
-<li>To be updated</li>
-</ul>
-</div>
-<div id="past-students-work" class="section level4">
-<h4>Past Students Work</h4>
+<li><p>2021 - 2022</p>
 <ul>
+<li><p>Zhaobing Fu <a href="1824353_Fu%20Zhaobing_2022.pdf">Reimplement Mixture Cure Models in Oncology With R</a></p></li>
+<li><p>Wei Zhou <a href="1825310_Wei_Zhou_2022.pdf">Estimation Methods for the Semiparametric Accelerated Failure Time Mixture Cure Model</a></p></li>
+</ul></li>
 <li><p>2020 - 2021</p>
 <ul>
 <li>Yue Ju <a href="1718235_Yue%20Ju_2021.pdf">Thesis</a></li>
@@ -405,6 +404,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')

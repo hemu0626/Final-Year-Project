@@ -21,7 +21,13 @@ Logistic regression, classification and regression trees, neural networks, boost
   
   + Random forest [Note](randomforest.html)
   
-#### Past Students Work
+#### Past Students
+
+  * 2021 - 2022
+  
+    + Zhiyi Wang [Clustering Methods and Its Application on Nutrition Facts of Mcdonald’s Breakfast Menu](1821891_Zhiyi Wang_2022.pdf)
+
+    + Xinyi Yue [Unsupervised Learning methods and its Applications on Customer Personality Analysis](1823376_Xinyi Yue_2022.pdf)
 
   * 2020 - 2021
     

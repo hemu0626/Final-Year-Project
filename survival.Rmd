@@ -13,11 +13,14 @@ Survival data, where the primary outcome is time to a specific event, arise in m
 
 In this project, students are expected to learn some survival analysis topics: Cox Model, AFT Model and Frailty Model, etc. Students are expected to demonstrate their understand of the model and interpret the results of application.
 
-#### Notes
-
-  + To be updated
   
-#### Past Students Work
+#### Past Students
+
+  * 2021 - 2022
+  
+    + Zhaobing Fu [Reimplement Mixture Cure Models in Oncology With R](1824353_Fu Zhaobing_2022.pdf)
+
+    + Wei Zhou [Estimation Methods for the Semiparametric Accelerated Failure Time Mixture Cure Model](1825310_Wei_Zhou_2022.pdf)
 
   * 2020 - 2021
     

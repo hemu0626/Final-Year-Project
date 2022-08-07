@@ -12,10 +12,6 @@ output:
 Coronavirus disease 2019 (COVID-19), an infectious disease caused by the infection of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), is spreading and causing the global coronavirus pandemic. The viral dynamics of SARS-CoV-2 infection have not been quantitatively investigated intensely.
 
 In this project, students are expected to understand the viral dynamic modelling through ODE.
-
-#### Notes
-
-  * To be updated
   
 #### Past Stuents
 

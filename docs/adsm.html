@@ -13,8 +13,8 @@
 
 <title>Advanced Statistical Methods</title>
 
-<script src="site_libs/header-attrs-2.8/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -358,9 +358,14 @@ div.tocify {
 <li><p>Random forest <a href="randomforest.html">Note</a></p></li>
 </ul>
 </div>
-<div id="past-students-work" class="section level4">
-<h4>Past Students Work</h4>
+<div id="past-students" class="section level4">
+<h4>Past Students</h4>
 <ul>
+<li><p>2021 - 2022</p>
+<ul>
+<li><p>Zhiyi Wang <a href="1821891_Zhiyi%20Wang_2022.pdf">Clustering Methods and Its Application on Nutrition Facts of Mcdonald’s Breakfast Menu</a></p></li>
+<li><p>Xinyi Yue <a href="1823376_Xinyi%20Yue_2022.pdf">Unsupervised Learning methods and its Applications on Customer Personality Analysis</a></p></li>
+</ul></li>
 <li><p>2020 - 2021</p>
 <ul>
 <li><p>Liangliang Zhu <a href="1718999_Liangliang%20Zhu_2021.pdf">Thesis</a></p></li>
@@ -414,6 +419,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
