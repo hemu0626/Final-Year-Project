@@ -21,6 +21,8 @@ Logistic regression, classification and regression trees, neural networks, boost
   
   + Random forest [Note](randomforest.html)
   
+  + Others
+  
 #### Past Students
 
   * 2022 - 2023
