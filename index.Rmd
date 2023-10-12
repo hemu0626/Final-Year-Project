@@ -14,7 +14,7 @@ output:
 Here is the tentative outline on topics provided by [Mu He](https://hemu0626.github.io). You may also refer to [publication](https://hemu0626.github.io/research.html) and come with your own personalize topics. (more than welcome)
 
 
-#### 1.Advanced Statistical Methods
+#### 1. Advanced Statistical Methods
 
 Big Data is a heated topic in a variety of fields such as biology and finance. The challenge of understanding these data has led to the development of new statistical tools and developed new areas such as machine learning and bioinformatics. Many of these tools are developed based on traditional statistical thinking, but are often expressed with different terminology.
 
@@ -22,7 +22,7 @@ In this project, students are expected to choose one or several topics and apply
 Logistic regression, classification and regression trees, neural networks, boosting, bagging, unsupervised learning, signal processing, random forests and data visualization, etc. Students are expected to demonstrate their understanding of the tools, apply the tools using software and interpret software’s the results.
 
 
-#### 2.Survival Anaylsis
+#### 2. Survival Anaylsis
 
 Survival data, where the primary outcome is time to a specific event, arise in many areas of biomedical research, including clinical trials and epidemiological studies. Many survival methods are extensions of techniques used in linear regression and categorical data, while other aspects of this field are unique to survival data.
 
@@ -30,14 +30,14 @@ In this project, students are expected to learn some survival analysis topics: C
 
 
 
-#### 3.Epidemiology: Viral Dynamic Modelling
+#### 3. Epidemiology: Viral Dynamic Modelling
 
 Coronavirus disease 2019 (COVID-19), an infectious disease caused by the infection of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), is spreading and causing the global coronavirus pandemic. The viral dynamics of SARS-CoV-2 infection have not been quantitatively investigated intensely.
 
 In this project, students are expected to understand the viral dynamic modelling through ODE.
 
 
-#### 4.Data Visualization, Data Simplification and Dimension Reduction Methods
+#### 4. Data Visualization, Data Simplification and Dimension Reduction Methods
 
 It is difficult to plot and analysis dataset which is in high-dimension. The more variables a dataset has, the more likely it is to find that some variables are highly correlated with others. When a variable can be expressed by other variables, then retaining that variable will increase the complexity of datasets, but not increase the information much. This is the main reason for doing data simplification.
 
@@ -46,13 +46,13 @@ In this project, students are expected to understand some dimension reduction me
 Students are expected to demonstrate their understand of the methods and interpret the results of application on real data.
 
 
-#### 5.A Review on Record-Based Transmuted Family of Distributions
+#### 5. A Review on Record-Based Transmuted Family of Distributions
 
 Recently, much attention in distribution theory has focused on the family of transmuted distributions, such as Shaw and Buckley’s transmuted distributions is derived through a quadratic rank transmutation map. Its stochastic construction through the use of the order statistics facilitated a generalization of the original family of Shaw and Buckley’s transmuted distributions.
 
 In this project, continuing on with a similar idea, students are expected to put forward a new family of transmuted distributions based on the theory of records, and then discuss its properties and some cases of special interest.
 
-#### 6.Estimated Shortfall and its Backtesting
+#### 6. Estimated Shortfall and its Backtesting
 
 Expected Shortfall (ES) is a measurement for estimating the market risk or credit risk of a portfolio, also known as conditional Value-at-Risk. There are several methods to backtest ES in the literature.
 

@@ -23,11 +23,25 @@ Logistic regression, classification and regression trees, neural networks, boost
   
 #### Past Students
 
+  * 2022 - 2023
+  
+    + Zibo Yu: Application of support vector machine and its model in judging whether the charging stations of electric cars are faulty
+    
+    + YuZhe Xia: Using PCA and CNN in Cat Breeds Recognition
+    
+    + Ruofan Mao: Image Classification based on Underlying Feathers 
+    
+    + Zhuo Chen: Image Super-resolution Based on Convolutional Neural Network
+    
+    + Can He: Novel cluster-based machine learning approach of analyzing video games on the Steam platform
+    
+    + Siqi Wang: Data Reduction Methods and Clustering Algorithms in Case of World Happiness Index
+
   * 2021 - 2022
   
     + Zhiyi Wang [Clustering Methods and Its Application on Nutrition Facts of Mcdonald’s Breakfast Menu](1821891_Zhiyi Wang_2022.pdf)
 
-    + Xinyi Yue [Unsupervised Learning methods and its Applications on Customer Personality Analysis](1823376_Xinyi Yue_2022.pdf)
+    + Xinyi Yue [Unsupervised Learning Methods and its Applications on Customer Personality Analysis](1823376_Xinyi Yue_2022.pdf)
 
   * 2020 - 2021
     
